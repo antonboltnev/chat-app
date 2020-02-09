@@ -19,26 +19,8 @@
         },
         {
           "id": 3,
-          "time": "19:33",
-          "text": "I'm OK too :) ",
-          "type": "own"
-        },
-        {
-          "id": 4,
-          "time": "14:01",
-          "text": "123",
-          "type": "own"
-        },
-        {
-          "id": 5,
-          "time": "14:02",
-          "text": "Ok ty",
-          "type": "own"
-        },
-        {
-          "id": 6,
-          "time": "14:05",
-          "text": "122",
+          "time": "14:14",
+          "text": "Im fine too ty!",
           "type": "own"
         }
       ]
@@ -59,18 +41,6 @@
           "time": "19:31",
           "text": "Fine, and how r u?",
           "type": "others"
-        },
-        {
-          "id": 3,
-          "time": "19:33",
-          "text": "I'm OK too :) ",
-          "type": "own"
-        },
-        {
-          "id": 4,
-          "time": "14:04",
-          "text": "Cool ty!",
-          "type": "own"
         }
       ]
     },
@@ -121,18 +91,6 @@
           "time": "19:33",
           "text": "I'm OK too :) ",
           "type": "own"
-        },
-        {
-          "id": 4,
-          "time": "14:07",
-          "text": "123",
-          "type": "own"
-        },
-        {
-          "id": 5,
-          "time": "14:07",
-          "text": "321",
-          "type": "own"
         }
       ]
     },
@@ -157,12 +115,6 @@
           "id": 4,
           "time": "19:33",
           "text": "I'm OK too :) ",
-          "type": "own"
-        },
-        {
-          "id": 5,
-          "time": "14:04",
-          "text": "123123",
           "type": "own"
         }
       ]

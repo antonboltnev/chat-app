@@ -79,6 +79,7 @@
 
 <style lang="scss">
   .v-user-chat {
+    margin-bottom: 200px;
     .input__field {
       display: flex;
       justify-content: space-between;
@@ -88,6 +89,7 @@
       margin: 0 auto;
       right: 0;
       left: 0;
+      background: #ffffff;
       padding: 0 $spacer*2;
 
       .material-icons {

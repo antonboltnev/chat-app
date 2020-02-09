@@ -52,6 +52,7 @@
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1;
     &__back {
       display: flex;
       align-items: center;
