@@ -3,9 +3,9 @@
     <div class="v-user__img"></div>
     <div class="v-user__info">
       <p class="info__name">{{user_data.name}}</p>
-      <p class="info__last-message">{{user_data.chat[0].text}}</p>
+      <p class="info__last-message">{{user_data.chat[user_data.chat.length-1].text}}</p>
     </div>
-    <div class="v-user__time">{{user_data.chat[0].time}}</div>
+    <div class="v-user__time">{{user_data.chat[user_data.chat.length-1].time}}</div>
   </div>
 </template>
 
@@ -17,7 +17,8 @@
     props: {
       user_data: {
         type: Object,
-        default: () => {}
+        default: () => {
+        }
       }
     },
     data() {
@@ -29,9 +30,12 @@
       ]),
       toUserChat() {
         this.SET_USER_TO_HEADER(this.user_data);
-        this.$router.push({name: 'user', params: {'messages': this.user_data.chat, 'user': this.user_data}, query: {
-          'id':
-            this.user_data.id }})
+        this.$router.push({
+          name: 'user', params: {'messages': this.user_data.chat, 'user': this.user_data}, query: {
+            'id':
+            this.user_data.id
+          }
+        })
       }
     }
   }
@@ -43,20 +47,24 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: $spacer*4;
+
     &__img {
       width: 50px;
       height: 50px;
       background: #e7e7e7;
       border-radius: 50%;
     }
+
     &__info {
       text-align: left;
       max-width: 170px;
     }
+
     .info {
       &__name {
         font-weight: bold;
       }
+
       &__last-message {
         white-space: nowrap;
         text-overflow: ellipsis;

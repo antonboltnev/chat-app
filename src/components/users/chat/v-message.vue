@@ -43,10 +43,9 @@
         bottom: 10px;
         width: 0;
         height: 0;
-        border: 0 solid transparent;
-        border-bottom-width: 10px;
-        border-top-width: 10px;
-        border-left: 10px solid #bad3ff;
+        border: 10px solid transparent;
+        border-right-width: 0;
+        border-left-color: #bad3ff;
       }
     }
     &.chat__others {
@@ -59,10 +58,9 @@
         bottom: 10px;
         width: 0;
         height: 0;
-        border: 0 solid transparent;
-        border-bottom-width: 10px;
-        border-top-width: 10px;
-        border-right: 10px solid #bad3ff;
+        border: 10px solid transparent;
+        border-right-color: #bad3ff;
+        border-left-width: 0;
       }
     }
     &__content {
