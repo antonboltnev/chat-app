@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tom",
+      "avatar": "",
+      "chat": [
+        {
+          "id": 1,
+          "time": "19:10",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "14:01",
+          "text": "123",
+          "type": "own"
+        },
+        {
+          "id": 5,
+          "time": "14:02",
+          "text": "Ok ty",
+          "type": "own"
+        },
+        {
+          "id": 6,
+          "time": "14:05",
+          "text": "122",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sam",
+      "avatar": "",
+      "chat": [
+        {
+          "id": 1,
+          "time": "19:10",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "14:04",
+          "text": "Cool ty!",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Samuel",
+      "avatar": "",
+      "chat": [
+        {
+          "id": 1,
+          "time": "18:30",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jack",
+      "avatar": "",
+      "chat": [
+        {
+          "id": 1,
+          "time": "18:30",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "14:07",
+          "text": "123",
+          "type": "own"
+        },
+        {
+          "id": 5,
+          "time": "14:07",
+          "text": "321",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Miranda",
+      "avatar": "",
+      "chat": [
+        {
+          "id": 1,
+          "time": "18:20",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 4,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        },
+        {
+          "id": 5,
+          "time": "14:04",
+          "text": "123123",
+          "type": "own"
+        }
+      ]
+    }
+  ]
+}
