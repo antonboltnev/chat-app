@@ -1,9 +1,9 @@
 <template>
   <div class='users-list'>
     <v-user
-        v-for="user in users"
-        :key="user.id"
-        :user_data="user"
+        v-for="chat in chats"
+        :key="chat.id"
+        :user_data="chat"
     />
   </div>
 </template>
@@ -23,16 +23,18 @@
     },
     computed: {
       ...mapState([
-        'users'
+        'chats'
       ])
     },
     methods: {
       ...mapActions([
-        'FETCH_USERS'
+        'FETCH_CHATS',
+        'SET_USER_TO_HEADER'
       ])
     },
     mounted() {
-      this.FETCH_USERS()
+      this.FETCH_CHATS()
+      this.SET_USER_TO_HEADER()
     }
   }
 </script>

@@ -41,28 +41,4 @@
 </script>
 
 <style lang="scss">
-  .v-header {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: $spacer*2;
-    background: $primary-bg;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1;
-    &__back {
-      display: flex;
-      align-items: center;
-      flex-basis: 25%;
-    }
-    &__user-info {
-      flex-basis: 50%;
-    }
-    &__right-side {
-      flex-basis: 25%;
-    }
-  }
 </style>

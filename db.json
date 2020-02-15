@@ -1,9 +1,35 @@
 {
-  "users": [
+  "contacts": [
     {
       "id": 1,
       "name": "Tom",
-      "avatar": "",
+      "status": "online"
+    },
+    {
+      "id": 2,
+      "name": "Sam",
+      "status": "offline"
+    },
+    {
+      "id": 3,
+      "name": "Samuel",
+      "status": "offline"
+    },
+    {
+      "id": 4,
+      "name": "Jack",
+      "status": "online"
+    },
+    {
+      "id": 5,
+      "name": "Miranda",
+      "status": "offline"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "name": "Tom",
       "chat": [
         {
           "id": 1,
@@ -22,13 +48,18 @@
           "time": "14:14",
           "text": "Im fine too ty!",
           "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "20:57",
+          "text": "123",
+          "type": "own"
         }
       ]
     },
     {
       "id": 2,
       "name": "Sam",
-      "avatar": "",
       "chat": [
         {
           "id": 1,
@@ -41,13 +72,18 @@
           "time": "19:31",
           "text": "Fine, and how r u?",
           "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "22:08",
+          "text": "321",
+          "type": "own"
         }
       ]
     },
     {
       "id": 3,
       "name": "Samuel",
-      "avatar": "",
       "chat": [
         {
           "id": 1,
@@ -72,7 +108,6 @@
     {
       "id": 4,
       "name": "Jack",
-      "avatar": "",
       "chat": [
         {
           "id": 1,
@@ -97,7 +132,6 @@
     {
       "id": 5,
       "name": "Miranda",
-      "avatar": "",
       "chat": [
         {
           "id": 1,

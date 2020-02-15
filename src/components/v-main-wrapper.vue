@@ -25,7 +25,4 @@
 </script>
 
 <style lang="scss">
-  .v-main-wrapper {
-    padding: $spacer*2;
-  }
 </style>
