@@ -114,6 +114,14 @@
   outline: transparent;
 }
 
+.start-call {
+  background: forestgreen;
+  padding: $spacer $spacer*2;
+  border-radius: 4px;
+  color: #ffffff;
+  outline: transparent;
+}
+
 .v-user {
   display: flex;
   align-items: center;
