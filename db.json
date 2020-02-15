@@ -53,12 +53,6 @@
           "time": "14:14",
           "text": "Im fine too ty!",
           "type": "own"
-        },
-        {
-          "id": 4,
-          "time": "20:57",
-          "text": "123",
-          "type": "own"
         }
       ]
     },
@@ -77,12 +71,6 @@
           "time": "19:31",
           "text": "Fine, and how r u?",
           "type": "others"
-        },
-        {
-          "id": 3,
-          "time": "22:08",
-          "text": "321",
-          "type": "own"
         }
       ]
     },
