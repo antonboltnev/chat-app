@@ -37,13 +37,12 @@
         'SET_USER_TO_HEADER'
       ]),
       toUserChat() {
-        let vm = this;
-        this.chats.map(function (chat) {
-          if (chat.id === vm.contact_info.id) {
-            vm.$router.push({
+        this.chats.map((chat) => {
+          if (chat.id === this.contact_info.id) {
+            this.$router.push({
               name: 'user',
-              params: { 'messages': chat.chat, 'user': chat },
-              query: { 'id': vm.contact_info.id }
+              params: {'messages': chat.chat, 'user': chat},
+              query: {'id': this.contact_info.id}
             })
           }
         })
@@ -51,24 +50,20 @@
       checkChats() {
         if (!this.chats.length) {
           this.FETCH_CHATS()
-          .then(() => {
-            this.toUserChat()
-          })
+            .then(() => {
+              this.toUserChat()
+            })
         } else {
           this.toUserChat()
         }
       }
     },
     mounted() {
-      if (!this.info_data) {
-        this.contacts.find((contact) => {
-          if (contact.id === this.$route.query.id) {
-            this.contact_info = contact
-          }
-        })
-      } else {
-        this.SET_USER_TO_HEADER(this.info_data)
-      }
+      this.contacts.find((contact) => {
+        if (contact.id === this.$route.query.id) {
+          this.contact_info = contact
+        }
+      })
     }
   }
 </script>

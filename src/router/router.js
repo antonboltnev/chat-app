@@ -3,10 +3,10 @@ import Router from 'vue-router'
 
 Vue.use(Router);
 
-import vUsersList from '../components/users/v-users-list'
-import vUserChat from '../components/users/chat/v-user-chat'
 import vContactList from '../components/contacts/v-contact-list'
 import vContactUserInfo from '../components/contacts/v-contact-user-info'
+import vUsersList from '../components/users/v-users-list'
+import vUserChat from '../components/users/chat/v-user-chat'
 
 let router = new Router({
   routes: [

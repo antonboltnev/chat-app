@@ -18,10 +18,6 @@
     components: {
       vContactUser
     },
-    props: {},
-    data() {
-      return {}
-    },
     computed: {
       ...mapState([
         'contacts'

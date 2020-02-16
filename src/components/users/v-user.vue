@@ -31,10 +31,9 @@
       toUserChat() {
         this.SET_USER_TO_HEADER(this.user_data);
         this.$router.push({
-          name: 'user', params: {'messages': this.user_data.chat, 'user': this.user_data}, query: {
-            'id':
-            this.user_data.id
-          }
+          name: 'user',
+          params: { 'messages': this.user_data.chat, 'user': this.user_data },
+          query: { 'id': this.user_data.id }
         })
       }
     }

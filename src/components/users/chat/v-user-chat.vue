@@ -68,7 +68,7 @@
 
         user.chat.push(chat);
 
-        this.SEND_MSG_TO_CHAT({userId: user.id, user: user})
+        this.SEND_MSG_TO_CHAT({userId: user.id, chat: user})
         .then(() => {
           this.textValue = ''
         })

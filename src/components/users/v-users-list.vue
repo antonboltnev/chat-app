@@ -29,12 +29,10 @@
     methods: {
       ...mapActions([
         'FETCH_CHATS',
-        'SET_USER_TO_HEADER'
       ])
     },
     mounted() {
       this.FETCH_CHATS()
-      this.SET_USER_TO_HEADER()
     }
   }
 </script>
